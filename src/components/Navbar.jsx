@@ -1,10 +1,11 @@
 // import { FiMenu } from "react-icons/fi";
-import { DiCssdeck } from "react-icons/di";
+
+import { BiAperture } from "react-icons/bi";
 function Navbar() {
   return (
     <nav className="flex p-2 my-2 mx-7 flex-col justify-center items-center sm:justify-around sm:flex-row">
       <div className="cursor-pointer">
-        <DiCssdeck size="2.6rem" />
+        <BiAperture size="2.6rem" />
       </div>
 
       <div className="my-2 sm:my-0">
