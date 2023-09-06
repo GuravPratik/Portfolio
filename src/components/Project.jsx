@@ -1,3 +1,5 @@
+import { projects } from "../data/projects";
+
 import ProjectCard from "./ProjectCard";
 
 function Project() {
@@ -10,12 +12,9 @@ function Project() {
         Here are some of my projects that i have worked.
       </p>
       <div className="flex flex-col items-center gap-5 mb-5 sm:flex-row sm:justify-evenly w-full sm:w-9/12 sm:flex-wrap sm:p-1">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        {projects.map((project) => (
+          <ProjectCard project={project} key={project.id} />
+        ))}
       </div>
     </div>
   );

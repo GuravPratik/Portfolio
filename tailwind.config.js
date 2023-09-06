@@ -9,6 +9,7 @@ export default {
       },
       backgroundColor: {
         "custom-purple": "rgba(133, 76, 230, 0.082)",
+        "custom-back": "#2e3358ed",
       },
       textColor: {
         "custom-purple2": "rgba(133, 76, 230)",

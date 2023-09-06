@@ -1,0 +1,51 @@
+export const projects = [
+  {
+    id: 1,
+    title: "Fast-React-Pizza",
+    link: "https://github.com/GuravPratik/Fast-React-Pizza",
+    img: "/fast-react-pizza.png",
+    techStack: ["React", "React-Router-Dom", "Redux Toolkit", "api"],
+    description: "A simple web application to order pizza...",
+  },
+  {
+    id: 5,
+    title: "E-COMMERCE Backend",
+    link: "https://github.com/GuravPratik/E-COMMERCE-Backend",
+    description: `Backend of the simple tshirt ecommerce app. This project is created while learning backend development`,
+    img: "https://img.freepik.com/premium-vector/ecommerce-online-shopping-marketing-concept-vector-stock-illustration_618588-583.jpg",
+    techStack: ["Nodejs", "Express", "cloudinary", "MongoDb"],
+  },
+  {
+    id: 6,
+    title: "News Monkey",
+    link: "https://github.com/GuravPratik/NewsMonkey",
+    description: `Stay informed and connected with our user-friendly news app, delivering personalized, real-time news updates and up-to-date.`,
+    techStack: ["React", "React-Router-Dom", "News api"],
+    img: "/news-monkey.png",
+  },
+  {
+    id: 2,
+    title: "React Quizz",
+    link: "https://github.com/GuravPratik/React-Quiz",
+    description:
+      "A simple web application where you can test your react knowledge by taking part in React Quiz",
+    techStack: ["React", "Context Api", "api"],
+    img: "/React-quiz.png",
+  },
+  {
+    id: 3,
+    title: "Movie Tracker",
+    link: "https://github.com/GuravPratik/WatchLister",
+    description: `MovieTracker a platform that enables users to create,manage, and maintain their watchlists for movies and TV shows `,
+    techStack: ["React", "Local Storage", "api"],
+    img: "/watchLister.png",
+  },
+  {
+    id: 4,
+    title: `Far Away - Travel Planning Web Application`,
+    link: "https://github.com/GuravPratik/Far-Away",
+    description: ` 'Far Away,' aimed at simplifying travel planning and organization. Users can easily add, edit, and manage items essential for their trips, with a built-in feature to check off packed items.`,
+    techStack: ["React"],
+    img: "/farAway.png",
+  },
+];
