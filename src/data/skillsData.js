@@ -12,42 +12,46 @@ export const skill = [
       },
       {
         img: "/react.png",
-        title: "React",
+        title: "React Js",
+      },
+      {
+        img: "/js.png",
+        title: "JavaScript",
       },
     ],
   },
-  //   {
-  //     category: "backend",
-  //     skills: [
-  //       {
-  //         img: "/nodejs.png",
-  //         title: "nodejs",
-  //       },
-  //       {
-  //         img: "/python.png",
-  //         title: "python",
-  //       },
-  //       {
-  //         img: "/java.png",
-  //         title: "java",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     category: "Tools",
-  //     skills: [
-  //       {
-  //         img: "/vscode.png",
-  //         title: "vscode",
-  //       },
-  //       {
-  //         img: "/postman.png",
-  //         title: "postman",
-  //       },
-  //       {
-  //         img: "/git.png",
-  //         title: "git",
-  //       },
-  //     ],
-  //   },
+  {
+    category: "Backend",
+    skills: [
+      {
+        img: "/nodejs.png",
+        title: "Nodejs",
+      },
+      {
+        img: "/python.png",
+        title: "Python",
+      },
+      {
+        img: "/java.png",
+        title: "Java",
+      },
+    ],
+  },
+  {
+    category: "Tools",
+    skills: [
+      {
+        img: "/vscode.png",
+        title: "vscode",
+      },
+      {
+        img: "/postman.png",
+        title: "Postman",
+      },
+      {
+        img: "/git.png",
+        title: "Git",
+      },
+    ],
+  },
 ];

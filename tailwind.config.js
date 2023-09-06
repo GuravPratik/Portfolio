@@ -5,7 +5,7 @@ export default {
     extend: {
       screens: {
         tablet: "850px",
-        // => @media (min-width: 640px) { ... }
+        // => @media (min-width: 640px) { ... },
       },
     },
   },
