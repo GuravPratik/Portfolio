@@ -1,7 +1,7 @@
 import { BiAperture } from "react-icons/bi";
 function Navbar() {
   return (
-    <nav className="flex p-2 my-2 mx-7 flex-col justify-center items-center sm:justify-around sm:flex-row">
+    <nav className="flex sticky z-20 top-0 bg-gray-900 w-full p-2 mb-2  flex-col justify-center items-center sm:justify-around sm:flex-row">
       <div className="cursor-pointer">
         <BiAperture size="2.6rem" />
       </div>
@@ -15,10 +15,10 @@ function Navbar() {
             Skills
           </li>
           <li className="font-medium hover:text-purple-300 cursor-pointer text-lg">
-            Education
+            Projects
           </li>
           <li className="font-medium hover:text-purple-300 cursor-pointer text-lg">
-            Projects
+            Contact
           </li>
         </ul>
       </div>
