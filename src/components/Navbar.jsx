@@ -1,5 +1,3 @@
-// import { FiMenu } from "react-icons/fi";
-
 import { BiAperture } from "react-icons/bi";
 function Navbar() {
   return (

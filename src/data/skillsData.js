@@ -1,19 +1,19 @@
 export const skill = [
   {
-    category: "frontend",
+    category: "Frontend",
     skills: [
       {
         img: "/html.png",
         title: "HTML",
       },
-      //   {
-      //     img: "/css.png",
-      //     title: "css",
-      //   },
-      //   {
-      //     img: "/react.png",
-      //     title: "react",
-      //   },
+      {
+        img: "/css.png",
+        title: "CSS",
+      },
+      {
+        img: "/react.png",
+        title: "React",
+      },
     ],
   },
   //   {

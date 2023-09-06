@@ -15,7 +15,7 @@ function About() {
             <Typing />
           </span>
         </h2>
-        <p className="text-zinc-500 font-medium p-2 mb-2 text-lg tablet:p-0 ">
+        <p className="text-zinc-500 font-medium p-2 text-center mb-2 text-lg tablet:p-0 tablet:text-left">
           I am a motivated and versatile individual, always eager to take on new
           challenges. With a passion for learning I am dedicated to delivering
           high-quality results. With a positive attitude and a growth mindset, I
