@@ -26,7 +26,7 @@ function About() {
         </p>
         <Link
           target="_blank"
-          to="https://drive.google.com/file/d/19-czpQo3AL3Rd-dTBjRhjta0O-QkNt3X/view?usp=drive_link"
+          to="https://drive.google.com/file/d/19-czpQo3AL3Rd-dTBjRhjta0O-QkNt3X/view?usp=sharing"
           className="w-60 my-4 text-center text-lg relative bg-gradient-to-r from-fuchsia-600 to-purple-800 text-white font-semibold tablet:px-6 table:py-3 px-5 py-2 shadow-md transition duration-300 ease-in-out transform hover:scale-105"
           style={{ borderRadius: "18px" }}
         >

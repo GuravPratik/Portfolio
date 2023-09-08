@@ -35,6 +35,18 @@ export const skill = [
         img: "/java.png",
         title: "Java",
       },
+      {
+        img: "/mysql.png",
+        title: "MySQL",
+      },
+      {
+        img: "/postgresql.png",
+        title: "Postgresql",
+      },
+      {
+        img: "/mongodb.png",
+        title: "MongoDB",
+      },
     ],
   },
   {
