@@ -15,7 +15,6 @@ function Contact() {
   function createPromise(timeout) {
     return new Promise((resolve) => {
       setTimeout(() => {
-        console.log("inside timeout");
         resolve("Message is successfully send!");
       }, timeout);
     });
@@ -31,7 +30,6 @@ function Contact() {
     setIsLoading(true);
     const result = await createPromise(3000);
     toast.success(result);
-    console.log(result);
     setIsLoading(false);
     setFormDetails(initialState);
   }
