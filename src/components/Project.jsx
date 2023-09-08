@@ -4,7 +4,10 @@ import ProjectCard from "./ProjectCard";
 
 function Project() {
   return (
-    <div className="w-full flex justify-center items-center flex-col my-7 flex-wrap gap-3 ">
+    <div
+      id="project"
+      className="w-full flex justify-center items-center flex-col my-7 flex-wrap gap-3 "
+    >
       <h1 className="font-semibold text-3xl mt-1 mb-4 sm:text-4xl sm:font-bold">
         Projects
       </h1>

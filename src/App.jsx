@@ -1,17 +1,18 @@
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Project from "./components/Project";
-import Contact from "./components/Contact";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Applayout from "./components/Applayout";
+import PageNotFound from "./components/PageNotFound";
+
+import "./scrollbar.css";
 
 export default function App() {
   return (
     <>
-      <Navbar />
-      <About />
-      <Skills />
-      <Project />
-      <Contact />
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Applayout />} />
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

@@ -1,0 +1,23 @@
+/* scrollbar.css */
+/* Width and height for the scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 2px;
+}
+
+/* Track (background) of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #282626cc;
+  border-radius: 5px; /* Rounded border for the scrollbar track */
+}
+
+/* Handle (thumb) of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #514d4d;
+  border-radius: 5px; /* Rounded border for the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
